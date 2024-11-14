@@ -1,0 +1,91 @@
+{"intents": [
+		{"tag": "waking",
+		"patterns":["hey albert", "wake up albert", "hey al", "albert", "okay albert", "alberto"],
+		"wakes":["On your service", "Here", "How can I help you"],
+			"function": ""
+		},
+		{"tag": "greeting",
+		"patterns":["hi", "hey", "greetings", "wassup", "hello", "what's up?", "howdy", "hey there"],
+		"greetings":["hey", "how can I help you", "hey", "what's up?", "I'm listening", "how can I help you?",
+					 "hello", "howdy", "hey there"],
+			"function": "greet"
+		},
+		{"tag": "asking_about_you",
+		"patterns":["how are you","how are you doing", "how is it going"],
+		"mood_statuses":["I'm very well, thanks for asking", "aside from being a robot, i'm doing great",
+						 "pretty good"],
+			"function": "mood_status"
+		},
+		{"tag": "name",
+		"patterns":["what is your name", "what's your name", "tell me your name"],
+		"name_declarations":["My name is Albert", "I'm Albert", "Albert"],
+			"function": "name_declarations"
+		},
+		{"tag": "getting_name_rnd",
+		"patterns":["my name is ", "the name is "],
+			"function": "get_name"
+		},
+		{"tag": "asking_about_name",
+		"patterns":["what is my name", "what's my name", "who am i"],
+			"function": "tell_name"
+		},
+		{"tag": "time",
+		"patterns":["what is the time","tell me the time","what time is it"],
+			"function": "time"
+		},
+		{"tag": "date",
+		"patterns":["what is the date", "tell me the date", "what day is it", "what's the day", "date"],
+			"function": "date"
+		},
+		{"tag": "search_the_web",
+		"patterns":["search for", "what are the results for", "search the web for"],
+		"web_results":["Here you go", "On it"],
+			"function": ""
+		},
+		{"tag": "search_youtube",
+		"patterns":["search youtube for"],
+		"youtube_results":["Here you go", "On it"],
+			"function": "search_youtube"
+		},
+		{"tag": "open_app",
+		"patterns":["open"],
+		"confirmations":["Here you go", "On it"],
+			"function": "open_app"
+		},
+		{"tag": "get_stock_price",
+		"patterns":["what is the price of", "price of"],
+		"price_results":["here is what I found", "here are the prices in amazon"],
+			"function": "get_stock_price"
+		},
+		{"tag": "weather",
+		"patterns":["how is the weather", "what is the weather"],
+			"function": "weather"
+		},
+		{"tag": "game",
+		"patterns":["let's play a game", "wanna play a game"],
+		"brags":["I win", "I definitely won that fairly", "faire and square"],
+			"function": "rock_paper_scissors"
+		},
+		{"tag": "toss_a_coin",
+		"patterns":["toss a coin","flip a coin","coin flip"],
+			"function": "toss_a_coin"
+		},
+		{"tag": "screenshot",
+		"patterns":["capture the screen","screenshot", "take a screenshot"],
+		"confirmations":["Done", "Alright", "You will find it in D:/screenshot/"],
+			"function": "screenshot"
+		},
+		{"tag": "search_for_definition",
+		"patterns":["definition of", "what is the definition of"],
+			"function": "search_for_definition"
+		},
+		{"tag": "search_for_a_person",
+		"patterns":["who is"],
+			"function": "search_for_a_person"
+		},
+		{"tag": "exit",
+		"patterns":["quit", "exit", "goodbye"],
+			"function": ""
+		}
+]
+}
