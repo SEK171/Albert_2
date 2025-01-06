@@ -144,9 +144,9 @@ def get_stock_price(rnd, input_data, *_vars):
 
 
 def weather(_rnd, input_data, *_vars):
-    api_key = '0e92bdd4760ac6fe79924eeeba9b1d89'
+    api_key = 'Get your api on the openweathermap website'
     celsius = 'metric'
-    city = 'Ahfir, MA'
+    city = 'Enter your city here'
     a, b = input_data.split(" weather")
     if b == "":
         pass
@@ -195,7 +195,7 @@ def toss_a_coin(*_vars):
 
 def screenshot(rnd, _input_data, *_vars):
     screenshot_taken = pyautogui.screenshot()
-    screenshot_taken.save("C:/Users/SEK171/Pictures/screenshots/screen.png")
+    screenshot_taken.save("C:/screenshots/screen.png")
     answers = rnd["confirmations"]
     say(random.choice(answers))
 
