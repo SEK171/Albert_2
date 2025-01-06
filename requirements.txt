@@ -1,0 +1,7 @@
+tensorflow
+nltk
+numpy
+pytz
+pyautogui
+wikipedia
+requests
