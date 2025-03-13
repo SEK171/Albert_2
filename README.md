@@ -1,5 +1,5 @@
 Made by SEK171  
-inspiration: tech with tim: https://m.youtube.com/watch?v=wypVcNIH6D4
+inspiration: Tech With Tim: https://m.youtube.com/watch?v=wypVcNIH6D4
 
 This is a simple "AI" assistant that uses basic deep learning to respond to predefined user inputs.
 
